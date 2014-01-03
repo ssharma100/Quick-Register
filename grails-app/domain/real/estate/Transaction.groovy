@@ -9,7 +9,7 @@ class Transaction {
 
     static constraints = {
         trxDate blank: false
-        bankRef blank: false, size: 5..64
+        bankRef blank: false, size: 5..64, nullable: true
         bank blank: false
         type blank: false
     }
