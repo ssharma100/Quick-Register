@@ -48,8 +48,13 @@ grails.project.dependency.resolution = {
 
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
-        // runtime 'mysql:mysql-connector-java:5.1.24'
         runtime 'mysql:mysql-connector-java:5.1.28'
+
+        compile 'net.sf.ehcache:ehcache-core:2.4.6'
+        compile("org.apache.shiro:shiro-cas:1.2.2") {
+            excludes "servlet-api"
+        }
+
     }
 
     plugins {
@@ -57,8 +62,10 @@ grails.project.dependency.resolution = {
         build ":tomcat:7.0.47"
 
         // plugins for the compile step
-        compile ":scaffolding:2.0.1"
+        compile ":scaffolding:2.0.1"        
         compile ':cache:1.1.1'
+        // compile ":cache-ehcache:1.0.0"
+        compile ':shiro:1.2.0'
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate:3.6.10.6" // or ":hibernate4:4.1.11.6"
