@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
+		<title>Trx Register</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -82,7 +82,7 @@
 	</head>
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div id="status" role="complementary">
+		<div id="status" style="display: none;" role="complementary">
 			<h1>Application Status</h1>
 			<ul>
 				<li>App version: <g:meta name="app.version"/></li>
@@ -103,20 +103,20 @@
 			</ul>
 		</div>
 		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+            <h2>Welcome to the Real-Estate Online Transaction Register</h2>
+            Using this page you can enter rent deposits, expense, and other financial transactions that pertain to real-estate
+            rental activities that you administer.</br>
+            To get started, please have your login credentials ready and <a href="auth"> click here </a> to login.
 
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
-			</div>
+            <p></p>
+            <div id="controller-list" role="navigation">
+
+                <ul>
+                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
+                        <li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
+                    </g:each>
+                </ul>
+            </div>
 		</div>
 	</body>
 </html>

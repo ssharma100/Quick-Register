@@ -32,9 +32,7 @@ class ExpenseInfo {
         personalAmount: blank: false
 
         image: nullable:true
-        imageType: inList: ["jpg", "pdf", "gif", "png", "tiff"] validator: { val, obj, errors ->
-            if (obj.image != null && val.isEmpty()) errors.rejectValue('imageType', 'Must Be Provided When Attaching Receipt Image')
-        }
+        imageType: inList: ["jpg", "pdf", "gif", "png", "tiff"]
     }
 }
 

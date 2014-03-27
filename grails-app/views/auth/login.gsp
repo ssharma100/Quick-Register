@@ -10,7 +10,7 @@
   </g:if>
   <g:form action="signIn">
     <input type="hidden" name="targetUri" value="${targetUri}" />
-    <table>
+    <table style="max-width: 40%; margin: auto;">
       <tbody>
         <tr>
           <td>Username:</td>
@@ -21,7 +21,7 @@
           <td><input type="password" name="password" value="" /></td>
         </tr>
         <tr>
-          <td>Remember me?:</td>
+          <td>Remember me?</td>
           <td><g:checkBox name="rememberMe" value="${rememberMe}" /></td>
         </tr>
         <tr>
