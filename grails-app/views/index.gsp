@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Trx Register</title>
+		<title>Transactions Register</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -106,17 +106,7 @@
             <h2>Welcome to the Real-Estate Online Transaction Register</h2>
             Using this page you can enter rent deposits, expense, and other financial transactions that pertain to real-estate
             rental activities that you administer.</br>
-            To get started, please have your login credentials ready and <a href="auth"> click here </a> to login.
-
-            <p></p>
-            <div id="controller-list" role="navigation">
-
-                <ul>
-                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-                        <li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-                    </g:each>
-                </ul>
-            </div>
+            To get started, please have your login credentials ready and <a href="auth?targetUri=/transactions"> click here </a> to login.
 		</div>
 	</body>
 </html>
