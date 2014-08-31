@@ -12,6 +12,8 @@
 /*.tmproj
 /ivy*
 /eclipse
+.idea/*
+*.iml
 
 # default HSQL database files for production mode
 /prodDb.*
@@ -41,3 +43,6 @@
 
 # other
 *.iws
+
+# Protect The DataSource file to prevent shaing of system access info
+*DataSource.groovy
