@@ -5,12 +5,11 @@ class DetailItem {
     Date actualDate
     String description
     BigDecimal amount
-    String entereddBy
+    String enteredBy
 
     // Associations
     Category category     // The item's categorization for charge/expense
     Entity entity         // The entity to whom funds were paid/expenses
-
 
     // Reverse Mapping For Cascading Deletion
     static belongsTo = [transaction: Transaction]

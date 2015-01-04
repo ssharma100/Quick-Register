@@ -1,6 +1,6 @@
 package real.estate
 
-class Cstegory {
+class Category {
     String name
     CondoList condo
     CategoryType catType
