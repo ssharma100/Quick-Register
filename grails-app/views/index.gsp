@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Transactions Register</title>
+		<title>Real Estate Register</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -81,7 +81,6 @@
 		</style>
 	</head>
 	<body>
-		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" style="display: none;" role="complementary">
 			<h1>Application Status</h1>
 			<ul>
@@ -106,7 +105,7 @@
             <h2>Welcome to the Real-Estate Online Transaction Register</h2>
             Using this page you can enter rent deposits, expense, and other financial transactions that pertain to real-estate
             rental activities that you administer.</br>
-            To get started, please have your login credentials ready and <a href="auth?targetUri=/transactions"> click here </a> to login.
+            To get started, please have your login credentials ready and <a href="auth?targetUri=/home"> click here </a> to login.
 		</div>
 	</body>
 </html>

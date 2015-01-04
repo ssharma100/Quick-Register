@@ -22,7 +22,7 @@ class DetailItem {
         entity nullable: false
         category nullable: false
 
-        entereddBy size: 3..32, nullable: true
+        enteredBy size: 3..32, nullable: true
 
     }
 }
