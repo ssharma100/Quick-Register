@@ -1,11 +1,10 @@
 package real.estate;
 
 /**
- * Created with IntelliJ IDEA.
- * User: xxx_s_000
- * Date: 1/3/15
- * Time: 10:31 PM
- * To change this template use File | Settings | File Templates.
+ * Enumeration used to define the categorization of the expenses
+ * or income.  The enum is code based and reflects the structure of
+ * the tax forms and accounting categories
+ *
  */
 public enum CategoryType {
 
