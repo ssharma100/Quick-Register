@@ -9,15 +9,15 @@ package real.estate
  *
  * @author S. Sharma <ssharma@ooma.com>
  */
-class ExpenseInfo {
+class TransLineItem {
 
     Date occurredOn
     String paidBy
-    String vendor
+    Entity name
     float itemTotal
     float taxTotal
     float grandTotal
-    float personalAmount
+
 
     // Stores a picture of the receipt
     byte[] image

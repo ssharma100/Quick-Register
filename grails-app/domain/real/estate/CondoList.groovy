@@ -8,10 +8,11 @@ package real.estate
  * Time: 11:40 PM
  */
 public enum CondoList {
-    BONIS("288 Bonis Ave, Scarborough, Ontario"),
-    OMNI("661 Omni Drive, Scarborough, Ontario"),
-    MCLEVIN("123 McLevin Ave, Scarborough, Ontario"),
-    GRANDTRUNK("10 Grand Trunk Drive, Toronto, Ontario")
+    BONIS("288 Bonis Ave #2202, Scarborough, Ontario M1T 3W4"),
+    OMNI_123("123 Omni Drive #661, Scarborough, Ontario M1P 5B4"),
+    OMNI_115("115 Omni Drive #2035, Scarborough, Ontario M1P 5B4"),
+    MCLEVIN("410 McLevin Ave #1007, Scarborough, Ontario M1B 5J5"),
+    GRAND_TRUNK("10 Grand Trunk Drive, Toronto, Ontario")
 
     private String address
     CondoList (String address) {

@@ -6,14 +6,18 @@ class Transaction {
     BankList bank
     String bankRef
     TransactionType type
+    String payee
+    float netamount
+
+    // Relational Mappings
+    static hasMany = [items: DetailItem]
+
 
     static constraints = {
-        trxDate blank: false
+        trxDate blank: false, nullsble : false
         bankRef blank: false, size: 5..64, nullable: true
         bank blank: false
         type blank: false
     }
-
-    static hasMany = [transItems: TransItems]
 
 }

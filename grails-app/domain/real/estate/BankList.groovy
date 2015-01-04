@@ -8,7 +8,7 @@ package real.estate
  * To change this template use File | Settings | File Templates.
  */
 enum BankList {
-    CASH ("Cash"), CIBC ("CIBC"), RBC ("Royal Bank"), TD ("Toronto Dominion"), SCOTIA ("Scotia Bank"),
+    CIBC ("CIBC"), RBC ("Royal Bank"), TD ("Toronto Dominion"), SCOTIA ("Scotia Bank"),
     WELLS ("Wells Fargo"), CHASE ("Chase")
 
     private String fullName;
