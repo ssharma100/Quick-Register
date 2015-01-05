@@ -105,7 +105,7 @@
             <h2>Welcome to the Real-Estate Online Transaction Register</h2>
             Using this page you can enter rent deposits, expense, and other financial transactions that pertain to real-estate
             rental activities that you administer.</br>
-            To get started, please have your login credentials ready and <a href="auth?targetUri=/home"> click here </a> to login.
+            To get started, please have your login credentials ready and <a href="auth?targetUri=/home_page"> click here </a> to login.
 		</div>
 	</body>
 </html>
